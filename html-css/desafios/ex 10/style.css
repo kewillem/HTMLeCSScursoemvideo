@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Idroid';
+    src: url('fontes/idroid.otf') format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    background-color: #44E3D3;
+}
+header{
+    background-image: linear-gradient(to right, #32A89C, #009688, #00635A);
+    margin: -8px;
+    padding: 5px;
+}
+#cabeçalho{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+    margin: 10px;
+}
+pre{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;      
+    
+}
+nav{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+div{
+    display: inline-block;
+    margin: -5px 5px;
+    padding: 5px;
+}
+div:hover{
+    background-color: aquamarine;
+}
+main{
+    background-color: white;
+    text-align: center;
+    width: 834px;
+    margin: -21px auto;
+    padding: auto;
+    border-radius: 0px 0px 20px 20px;
+}
+
+p{
+    text-align: justify;
+    text-indent: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    padding: 20px;
+}
+
+#menu{
+    font-family: 'Idroid', sans-serif;
+    padding: 10px;
+    text-align: left;
+    color: #00635A;
+}
+
+h2{
+    font-family: 'Idroid', sans-serif;
+    padding: 2px;
+    text-align: left;
+    color: #00635A;
+    background-image: linear-gradient(to right, #32A89C, #9AD9D2);
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+            color: #1b5e57;
+            font-weight: bold;
+            
+}
+iframe{
+    border-width: 27px;
+    border-style: solid;
+    border-color: #00635A;
+    text-indent: 40px;
+}
+#extra{
+    background-color: #1b5e57;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+    border-radius: 10px 10px 0px 0px;
+    padding: 12px;
+    text-indent: 7px;
+    
+}
+
+ol{
+    text-align: left;
+    display: inline-block;
+    text-indent: 7px;
+    height: 100px;
+    width: 344px;
+    text-decoration: underline black;
+}
+
+section{
+    background-color: #9AD9D2;
+    border-radius: 10px;
+    margin: 30px;
+    box-shadow: 3px 5px 11px 0px rgba(0, 0, 0, 0.349);
+}
+
+
+footer{
+    color: white;
+    background-color: #00635A;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 34px 5px 5px;
+}
+#referencia{
+    text-align: center;
+    padding: 10px;
+}
+
